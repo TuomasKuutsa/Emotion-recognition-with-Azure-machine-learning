@@ -1,0 +1,16 @@
+
+name: test_env
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - python=3.8
+ - pip=20.2.4
+ - pip:
+    - numpy==1.22
+    - scikit-learn==1.0
+    - tensorflow==2.7.3
+    - librosa
+    - kapre
+    - azureml-defaults==1.44.0
+    
